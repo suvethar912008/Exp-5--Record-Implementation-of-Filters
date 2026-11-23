@@ -39,8 +39,8 @@ Convert image to grayscale and apply Laplacian Operator using cv2.Laplacian().
 # Step 10:
 Display all filtered images using a grid layout for comparison.
 
-#Developed By Name: Suvetha R
-#Register No: 212225220113
+# Developed By Name: Suvetha R
+# Register No: 212225220113
 
 # Program
 Smoothing Filters
