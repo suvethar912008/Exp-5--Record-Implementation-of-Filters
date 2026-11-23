@@ -65,6 +65,9 @@ plt.title("Average Filter Image")
 plt.axis("off")
 plt.show()
 ```
+
+<img width="582" height="312" alt="image" src="https://github.com/user-attachments/assets/12e01ccc-7b1a-466a-bba4-0f65eddfda33" />
+
 # ii) Using Weighted Averaging Filter
 
 ```
@@ -75,6 +78,8 @@ plt.title("Weighted Average Filter Image")
 plt.axis("off")
 plt.show()
 ```
+<img width="546" height="310" alt="image" src="https://github.com/user-attachments/assets/5756de39-abff-4b4d-ab9a-bfbb1f9b01aa" />
+
 # iii) Using Gaussian Filter
 ```
 gaussian_blur=cv2.GaussianBlur(image2,(33,33),0,0)
@@ -83,6 +88,8 @@ plt.title("Gaussian Blur")
 plt.axis("off")
 plt.show()
 ```
+<img width="612" height="312" alt="image" src="https://github.com/user-attachments/assets/5ae8dd76-ebef-4f6c-8b1e-064c080d18ba" />
+
 # iv)Using Median Filter
 ```
 median=cv2.medianBlur(image2,13)
@@ -90,6 +97,9 @@ plt.title("Median Blur")
 plt.axis("off")
 plt.show()
 ```
+
+<img width="570" height="322" alt="image" src="https://github.com/user-attachments/assets/d3cf8a02-7b60-4dcf-a432-f0e56d65a669" />
+
 # 3. Sharpening Filters
 # i) Using Laplacian Linear Kernal
 ```
@@ -100,6 +110,9 @@ plt.title("Laplacian Kernel")
 plt.axis("off")
 plt.show()
 ```
+
+<img width="557" height="322" alt="image" src="https://github.com/user-attachments/assets/79699028-8fc8-4f4f-a42b-54245d37af01" />
+
 # ii) Using Laplacian Operator
 ```
 laplacian=cv2.Laplacian(image2,cv2.CV_64F)
@@ -108,6 +121,9 @@ plt.title("Laplacian Operator")
 plt.axis("off")
 plt.show()
 ```
+
+<img width="582" height="332" alt="image" src="https://github.com/user-attachments/assets/8aa2704e-fe27-4df6-b3d4-02c6450aeead" />
+
 # Result
 Thus, smoothing filters and sharpening filters are successfully implemented using OpenCV.
 
